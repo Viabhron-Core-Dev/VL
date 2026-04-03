@@ -1,0 +1,26 @@
+{
+  "name": "Android Development",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "17",
+      "installGradle": "true"
+    },
+    "ghcr.io/devcontainers/features/common-utils:1": {
+      "installZsh": "true",
+      "configureZshOhMyZsh": "true"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "mathiasfrohlich.Kotlin",
+        "vscjava.vscode-gradle"
+      ]
+    }
+  },
+  "remoteUser": "vscode"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "VibeForge Vian Launcher",
+  "description": "A secure, feature-rich Android launcher with a sandboxed plugin system and real-time monitoring.",
+  "requestFramePermissions": []
+}
